@@ -14,6 +14,7 @@ body{
     flex: 3;
     justify-content: space-between;
     background-position: center center;
+    max-width: 400px;
 }
 .logo{
     display: flex;
@@ -27,4 +28,37 @@ body{
 }
 img{
     height: 125px;
+}
+button{
+    background-color: #596D48;
+    color: white;
+}
+input{
+    border-color: #E5E7EB;
+    height: 25px;
+}
+p{
+    font-weight: bold;
+}
+label{
+    text-transform: uppercase;
+}
+.text-section{
+    margin: 50px;
+}
+form{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.inputs{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto;
+}
+.labels{
+    display: flex;
+    flex-direction: column;
+}
+form p, .dummy-text{
+    font-size: 20px;
 }
