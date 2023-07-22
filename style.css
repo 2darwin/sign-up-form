@@ -22,9 +22,10 @@ body{
     align-items: center;
     color: white;
     font-weight: bold;
+    font-size: 60px;
     margin-top: 20vh;
     padding: 16px 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.671);
 }
 img{
     height: 125px;
@@ -32,10 +33,16 @@ img{
 button{
     background-color: #596D48;
     color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 231px;
+    font-weight: bold;
+    font-size: 18px;
 }
 input{
     border-color: #E5E7EB;
     height: 25px;
+    border-radius: 5px;
 }
 p{
     font-weight: bold;
@@ -44,7 +51,8 @@ label{
     text-transform: uppercase;
 }
 .text-section{
-    margin: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
 }
 form{
     margin-top: 50px;
@@ -61,4 +69,16 @@ form{
 }
 form p, .dummy-text{
     font-size: 20px;
+}
+.bottom-section{
+    margin-top: 40px;
+}
+.dummy-text{
+    width: 526px;
+}
+input:focus{
+    box-shadow: 5px 5px 15px 5px rgba(32,38,202,0.27);
+}
+input:invalid{
+    border-color: red;
 }
